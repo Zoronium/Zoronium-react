@@ -15,12 +15,17 @@
   overflow: hidden visible;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   margin: 0;
   display: flex;
   place-items: center;
   min-width: 320px;
   min-height: 100vh;
+  scroll-behavior: smooth;
 }
 
 a>img {
@@ -29,7 +34,7 @@ a>img {
 
 @media (prefers-color-scheme: dark) {
   :root {
-    color: #213547;
+    color: white;
     background-color: #12071f;
   }
 
