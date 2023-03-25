@@ -150,49 +150,81 @@ const New = () => {
             </div>
           </div>
         </div>
-        <p
+        <div
           style={{
-            paddingTop: "8vw ",
-            lineHeight: "2em",
-            paddingInline: "8vw",
             fontFamily: "monospace, Courier",
           }}
         >
-          Hi there! My name is Advait Jain and I am {Math.abs(byear).toFixed(0)}
-          years old. I live in Delhi, India and I love [Coding , Playing Guitar
-          , etc].
-          <br />
-          <br />
-          s a passionate and driven Btech IT student , I am constantly striving
-          to push the boundaries of what I can achieve.
-          <br />
-          <br />
-          Feel free to reach out to me at
-          <a href="mailto:aj.advaitj+port@gmail.com">aj.advaitj@gmail.com</a>
-          if you want to connect! <br />
-        </p>
-        <p
-          style={{
-            paddingBottom: "8vw",
-            paddingInline: "8vw",
-            lineHeight: "2em",
-            fontFamily: "monospace, Courier",
-          }}
-        >
-          With a strong foundation in technical languages such as Python,
-          JavaScript, Java, Rust, and C/C++, as well as web and database
-          technologies like React.js, HTML/CSS, and SQL, etc.
-          <br />I have a diverse set of skills that allow me to take on complex
-          projects with ease.
-        </p>
+          <h1>About me</h1>
+          <p
+            style={{
+              lineHeight: "2em",
+              paddingInline: "8vw",
+            }}
+          >
+            Hi there! My name is Advait Jain and I am{" "}
+            {Math.abs(byear).toFixed(0)} years old. I live in Delhi, India and I
+            love [Coding , Playing Guitar , etc].
+            <br />
+            <br />
+            I am passionate and driven Btech IT student , I am constantly
+            striving to push the boundaries of what I can achieve by learing
+            constantly and building my knowlage.
+            <br />
+            <br />
+            Feel free to reach out to me at{" "}
+            <a href="mailto:aj.advaitj+port@gmail.com">
+              {" "}
+              aj.advaitj@gmail.com
+            </a>{" "}
+            if you want to connect! <br />
+          </p>
+          <p
+            style={{
+              paddingBottom: "8vw",
+              paddingInline: "8vw",
+              lineHeight: "2em",
+              fontFamily: "monospace, Courier",
+            }}
+          >
+            With a strong foundation in technical languages such as Python,
+            JavaScript, Java, Rust, and C/C++, as well as web and database
+            technologies like React.js, HTML/CSS, and SQL, etc.
+            <br />I have a diverse set of skills that allow me to take on
+            complex projects with ease.
+          </p>
+          <p>
+            <h2 class="Bio">Bio 🧬</h2>
+            <div
+              className=""
+              style={{
+                display: "grid",
+                gridTemplateColumns: "60px 1fr",
+                marginInline: "2rem",
+                rowGap: "0.5rem",
+                marginBottom: "5rem",
+              }}
+            >
+              <span>2003</span>Born in Delhi, India.
+              <span>2021</span>Completed the 12th Grade
+              <span>2021</span> Started the coding My Journey
+              <span>2021 to present</span>Studying As a BTech Student in
+              Informational Technology
+              <span>Future</span> Helping Build software which is used by
+              Billions
+            </div>
+          </p>
+        </div>
+        <h2>Technologies 👨‍💻</h2>
         <div
           style={{
             display: "flex",
             justifyContent: "center",
             flexWrap: "wrap",
-            marginInline: "2em",
+            margin: "2rem 2em 2em 2em",
           }}
         >
+          <br />
           <img
             src="https://img.icons8.com/color/48/null/python--v1.png"
             alt="python"
@@ -324,7 +356,7 @@ const New = () => {
               justifyContent: "center",
             }}
           >
-            <a
+            <l
               className="twitter-timeline"
               data-theme="dark"
               data-height="500"
@@ -332,7 +364,7 @@ const New = () => {
               href="https://twitter.com/codewithzoro?ref_src=twsrc%5Etfw"
             >
               Tweets by codewithzoro
-            </a>
+            </l>
           </div>
           <div className="login-box">
             <h2>Got any Questions Ask Away</h2>
@@ -348,7 +380,7 @@ const New = () => {
               </div>
               <div className="user-box">
                 <input type="email" name="Email" required />
-                <label>Emailid</label>
+                <label>Email Id</label>
               </div>
               <div className="user-box">
                 <input type={"text"} name="Comments" required />
@@ -362,6 +394,38 @@ const New = () => {
                 Submit
               </a>
             </form>
+          </div>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "column",
+              alignItems: "flex-start",
+              marginInline: "2rem",
+            }}
+          >
+            <h3>Address</h3>
+
+            <p>
+              {" "}
+              New Delhi , Delhi
+              <br />
+              India, pincode-110052 <br />
+              India
+            </p>
+            <h3> Email</h3>
+            <p
+              style={{
+                textAlign: "left !Important",
+              }}
+            >
+              {" "}
+              aj.advaitj@gmail.com
+            </p>
+            <h3>Phone</h3>
+            <p>
+              {" "}
+              Please Dm me to get contact details or Complete the side form.
+            </p>
           </div>
         </div>
       </div>
